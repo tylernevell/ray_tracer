@@ -3,6 +3,6 @@
 
 // no arg constructor 
 
-Vec3::Vec3() 
-    : e{0,0,0} {
-}
+// Vec3::Vec3() 
+//     : e{0,0,0} {
+// }
