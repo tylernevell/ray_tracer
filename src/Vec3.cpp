@@ -1,5 +1,5 @@
-#include "Vec3.h"
-#include <iostream>
+// #include "Vec3.h"
+// #include <iostream>
 
 // no arg constructor 
 

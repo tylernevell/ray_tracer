@@ -1,6 +1,12 @@
 #include <iostream>
 #include "Vec3.h"
 #include "Color.h"
+#include "Ray.h"
+
+Color ray_color(const ray& r) {
+    Vec3 unit_direction = unit_vector(r.direction());
+    auto t = 0.5 * (unit_direction.y() + 1.0);
+}
 
 int main() {
     // Image 
@@ -30,3 +36,18 @@ int main() {
     }
     std::cerr << "\nDone.\n";
 }
+
+/* 
+Ray tracer sends rays through pixels and computes the color seen in the direction of 
+those rays
+
+STEPS
+(1) Calculate the ray from the eye to the pixel
+(2) Determine which objects the ray intersects
+(3) Compute a color for that intersection point
+(4) Set up a virtual viewpoint to pass our scene rays through
+
+Focal Length: Distance between projection plane and projection point
+
+*/
+
