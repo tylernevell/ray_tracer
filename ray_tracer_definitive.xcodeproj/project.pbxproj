@@ -1,0 +1,95 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D6D9B83524F378DC005BB419 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6D9B83724F378DC005BB419 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		D6D9B83824F378DC005BB419 /* Ray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
+		D6D9B83924F378DC005BB419 /* Color.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		D6D9B83A24F378DC005BB419 /* Ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		D6D9B83B24F378DC005BB419 /* Vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vec3.h; sourceTree = "<group>"; };
+		D6D9B83C24F378DC005BB419 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D6D9B83D24F378DC005BB419 /* Vec3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vec3.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D6D9B82C24F3785C005BB419 = {
+			isa = PBXGroup;
+			children = (
+				D6D9B83524F378DC005BB419 /* README.md */,
+				D6D9B83624F378DC005BB419 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D9B83624F378DC005BB419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D6D9B83724F378DC005BB419 /* Color.h */,
+				D6D9B83824F378DC005BB419 /* Ray.cpp */,
+				D6D9B83924F378DC005BB419 /* Color.cpp */,
+				D6D9B83A24F378DC005BB419 /* Ray.h */,
+				D6D9B83B24F378DC005BB419 /* Vec3.h */,
+				D6D9B83C24F378DC005BB419 /* main.cpp */,
+				D6D9B83D24F378DC005BB419 /* Vec3.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D6D9B82D24F3785C005BB419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+			};
+			buildConfigurationList = D6D9B83024F3785C005BB419 /* Build configuration list for PBXProject "ray_tracer_definitive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D9B82C24F3785C005BB419;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D6D9B83124F3785C005BB419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D6D9B83224F3785C005BB419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D9B83024F3785C005BB419 /* Build configuration list for PBXProject "ray_tracer_definitive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D9B83124F3785C005BB419 /* Debug */,
+				D6D9B83224F3785C005BB419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D9B82D24F3785C005BB419 /* Project object */;
+}
